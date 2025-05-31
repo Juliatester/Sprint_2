@@ -26,6 +26,7 @@ class TotalPoints(PointsForPlace, PointsForMeters):
         total_points = place_points + meters_points
         return total_points
 
+
 points_for_place = PointsForPlace()
 print(points_for_place.get_points_for_place(10)) 
 
